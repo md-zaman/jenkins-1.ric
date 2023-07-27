@@ -1,0 +1,21 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<scriptApproval plugin="script-security@1251.vfe552ed55f8d">
+  <approvedScriptHashes>
+    <string>SHA512:b6a8316437b3943fd6345f7be322a097ef696c1ecf6ed46c9451d02771f229f6b1b8ec13548dfa99ac9b0bb2a566a8736e6acddea04b61a7c1f58e142887d503</string>
+    <string>SHA512:bfcb1cabe8481b743f1a28649331bf1a49ffaed44eb1ee8df64231e0595f13735c51212fdacbb2e140f2704dddd95a2a973cec6f07f1ac39c12adf9f6277c0ba</string>
+  </approvedScriptHashes>
+  <approvedSignatures/>
+  <aclApprovedSignatures/>
+  <approvedClasspathEntries/>
+  <pendingScripts>
+    <pendingScript>
+      <context>
+        <user>admin</user>
+      </context>
+      <script></script>
+      <language>groovy</language>
+    </pendingScript>
+  </pendingScripts>
+  <pendingSignatures/>
+  <pendingClasspathEntries/>
+</scriptApproval>

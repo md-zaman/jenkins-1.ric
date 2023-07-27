@@ -1,0 +1,21 @@
+Started by user [8mha:////4MjNxolOqbGw95NIzMDmwowYx4em7hBJ1ofUyJP4cakLAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzeEgZu/dLi1CL9xJTczDwACG0V4sAAAAA=[0mjenkins admin
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/backup-to-aws
+[SSH] script:
+MYSQL_HOST="db_host"
+AWS_SECRET_KEY=**********
+MYSQL_PASSWORD=**********
+DATABASE_NAME="testdb"
+AWS_BUCKET_NAME="jenkins-mysql-backup-z"
+
+/tmp/script.sh $MYSQL_HOST $MYSQL_PASSWORD $DATABASE_NAME $AWS_SECRET_KEY $AWS_BUCKET_NAME 
+
+[SSH] executing...
+Uploading your db-10-04-41.sql...
+upload failed: ../../tmp/db-10-04-41.sql to s3://jenkins-mysql-backup-z/db-10-04-41.sql Could not connect to the endpoint URL: "https://jenkins-mysql-backup-z.s3.amazonaws.com/db-10-04-41.sql"
+
+[SSH] completed
+[SSH] exit-status: 1
+
+Build step 'Execute shell script on remote host using ssh' marked build as failure
+Finished: FAILURE

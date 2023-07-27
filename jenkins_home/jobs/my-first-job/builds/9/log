@@ -1,0 +1,8 @@
+Started by user [8mha:////4MjNxolOqbGw95NIzMDmwowYx4em7hBJ1ofUyJP4cakLAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzeEgZu/dLi1CL9xJTczDwACG0V4sAAAAA=[0mjenkins admin
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/my-first-job
+[my-first-job] $ /bin/sh -xe /tmp/jenkins5602691194762037420.sh
++ NAME=Zaman
++ date
++ echo Hello, Zaman! The Current date and time is Thu Feb 16 15:26:09 UTC 2023
+Finished: SUCCESS

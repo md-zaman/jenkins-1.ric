@@ -1,0 +1,4 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<org.jenkinsci.plugins.ansible.AnsibleInstallation_-DescriptorImpl plugin="ansible@148.v6b_13c6de3a_47">
+  <installations class="org.jenkinsci.plugins.ansible.AnsibleInstallation-array"/>
+</org.jenkinsci.plugins.ansible.AnsibleInstallation_-DescriptorImpl>
