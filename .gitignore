@@ -1,5 +1,8 @@
 # Unecessary large db files and folders
-ib_logfile0
-ib_logfile1
-ibdata1
+ib_logfile0.*
+ib_logfile1.*
+ibdata1.*
 mysql/
+db_data/
+war/
+plugins/
